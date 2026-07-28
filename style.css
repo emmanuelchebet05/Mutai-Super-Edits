@@ -119,17 +119,16 @@ nav ul li a:hover::after{
 ========================== */
 
 .hero{
+    position: relative;
+    height: 100vh;
 
-    position:relative;
+    background-image: url("Images/hero.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-    height:100vh;
-
-    background:url("/Images/hero.jpeg") center center/cover no-repeat;
-
-    display:flex;
-
-    align-items:center;
-
+    display: flex;
+    align-items: center;
 }
 
 .hero-overlay{
